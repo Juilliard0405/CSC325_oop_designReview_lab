@@ -12,6 +12,7 @@ public class Student extends Human{
 	// ToDo 1: Make this class a child of Person
 	// ToDo 1: Make this class a child of Human
     private String address;
+    private double GPA;
     public Student(String name, short num){
         super(name,num);
     }
@@ -24,6 +25,13 @@ public class Student extends Human{
     }
 
 	// ToDo 3: Add a field for GPA and create setter and getter
+     public double getGPA() {
+        return GPA;
+    }
+
+    public void setGPA(double GPA) {
+        this.GPA = GPA;
+    }
 	
 	// ToDo 4: Add comments to your code
 }
