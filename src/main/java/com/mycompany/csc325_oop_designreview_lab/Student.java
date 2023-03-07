@@ -13,25 +13,26 @@ public class Student extends Human{
 	// ToDo 1: Make this class a child of Human
     private String address;
     private double GPA;
+    // Overloading constructor for the Human class
     public Student(String name, short num){
         super(name,num);
     }
-	// ToDo 2: Fix the resulting errors
+    //Setter for address
     public void setAddress(String address){
         this.address = address;
     }
+    //Getter for address
     public String getAddress(){
         return address;
     }
 
-	// ToDo 3: Add a field for GPA and create setter and getter
+    // Setter for GPA
      public double getGPA() {
         return GPA;
     }
-
+    // Getter for GPA
     public void setGPA(double GPA) {
         this.GPA = GPA;
     }
 	
-	// ToDo 4: Add comments to your code
 }
