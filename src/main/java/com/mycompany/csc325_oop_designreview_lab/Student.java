@@ -13,9 +13,14 @@ public class Student extends Human{
 	// ToDo 1: Make this class a child of Human
     private String address;
     private double GPA;
+    private int credit;
     // Overloading constructor for the Human class
     public Student(String name, short num){
-        super(name,num);
+        super(name, num);
+    }
+    public Student(String name, short num , int credit){
+        super(name, num);
+        this.credit = credit;
     }
     //Setter for address
     public void setAddress(String address){

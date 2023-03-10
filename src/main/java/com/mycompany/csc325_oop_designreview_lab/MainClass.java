@@ -22,12 +22,12 @@ public class MainClass {
 		// ToDo 7: Add a toString method for Student class
 		// ToDo 9: Add a toString method for Freshman class
 
-		Student std1= new Student("James", 20);
+		Student std1= new Student("James", (short)20);
                 // ToDo 10: Add a toString method for Senior class
 
-		Freshman std1= new Student("James", 20, 12); // name, age, credits
+		Student std2= new Freshman("James",(short) 20, 12); // name, age, credits
 
-                Senior std2 = new Student("John", 30, 90);
+                Student std3 = new Senior("John",(short) 30, 90);
 
 		// ToDo 8: Set the gpa of the student using the scanner and user
 		// ToDo 11: Set the gpa of the student using the scanner and user
