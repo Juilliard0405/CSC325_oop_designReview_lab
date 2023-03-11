@@ -4,6 +4,8 @@
 
 package com.mycompany.csc325_oop_designreview_lab;
 
+import java.util.Scanner;
+
 /**
  *
  * @author MoaathAlrajab
@@ -28,6 +30,9 @@ public class MainClass {
 		Student std2= new Freshman("James",(short) 20, 12); // name, age, credits
 
                 Student std3 = new Senior("John",(short) 30, 90);
+                
+                Scanner scan = new Scanner("Student gpa: ");
+                
 
 		// ToDo 8: Set the gpa of the student using the scanner and user
 		// ToDo 11: Set the gpa of the student using the scanner and user

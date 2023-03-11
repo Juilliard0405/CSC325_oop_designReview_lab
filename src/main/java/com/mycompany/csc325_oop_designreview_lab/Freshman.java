@@ -15,4 +15,12 @@ public class Freshman extends Student{
     public Freshman(String name, short num, int credit){
         super(name, num, credit);
     }
+    /**
+    @Override
+    public String toString() {
+        String s = "Name: " + name +"/n Age: "+ age + "/n Credit: "+ credit;
+        return s;        
+    
+    }
+    */
 }

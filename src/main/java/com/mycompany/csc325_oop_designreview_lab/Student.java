@@ -11,9 +11,8 @@ package com.mycompany.csc325_oop_designreview_lab;
 public class Student extends Human{
 	// ToDo 1: Make this class a child of Person
 	// ToDo 1: Make this class a child of Human
-    private String address;
-    private double GPA;
-    private int credit;
+    protected double GPA;
+    protected int credit;
     // Overloading constructor for the Human class
     public Student(String name, short num){
         super(name, num);
@@ -21,6 +20,12 @@ public class Student extends Human{
     public Student(String name, short num , int credit){
         super(name, num);
         this.credit = credit;
+    }
+
+    @Override
+    public String toString() {
+        String s = "Name: " + name +"/n Age: "+ age;
+        return s;        
     }
     //Setter for address
     public void setAddress(String address){

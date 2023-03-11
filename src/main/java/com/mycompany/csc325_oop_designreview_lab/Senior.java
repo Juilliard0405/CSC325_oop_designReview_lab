@@ -11,7 +11,6 @@ package com.mycompany.csc325_oop_designreview_lab;
  * @author juilliardwu
  */
 public class Senior extends Student{
-    private int credit;
     
     public Senior(String name, short num, int credit){
         super(name, num, credit);
