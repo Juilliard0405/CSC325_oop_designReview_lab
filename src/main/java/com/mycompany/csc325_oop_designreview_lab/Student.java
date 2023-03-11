@@ -14,17 +14,18 @@ public class Student extends Human{
     protected double GPA;
     protected int credit;
     // Overloading constructor for the Human class
-    public Student(String name, short num){
-        super(name, num);
-    }
-    public Student(String name, short num , int credit){
-        super(name, num);
-        this.credit = credit;
-    }
 
+    public Student(String name, short age, double GPA) {
+        super(name, age);
+        this.GPA = GPA;
+    }
+    public Student(String name, short num){
+    super(name, num);
+    }
+    
     @Override
     public String toString() {
-        String s = "Name: " + name +"/n Age: "+ age;
+        String s = "Name: " + name +"\n Age: "+ age +"\n GPA: " + GPA;
         return s;        
     }
     //Setter for address
